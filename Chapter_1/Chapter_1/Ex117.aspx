@@ -1,0 +1,24 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ex117.aspx.cs" Inherits="Ex117" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div>
+        Email:
+        <asp:Label
+            id="lblEmail"
+            Runat="server" />
+        <br /><br />
+        Phone:
+            <asp:Label
+            id="lblPhone"
+            Runat="server" />       
+    </div>
+    </form>
+</body>
+</html>
